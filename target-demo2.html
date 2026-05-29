@@ -4,12 +4,12 @@
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <meta name="robots" content="noindex, nofollow">
-  <title>Working Adobe Target + OneTrust Demo</title>
+  <title>Working Adobe Target + OneTrust Demo 2</title>
   <link rel="stylesheet" href="./styles.css">
   <script src="./target-config.js"></script>
 
   <script>
-    document.cookie = "checked=target-demo; path=/; max-age=1800; SameSite=Lax";
+    document.cookie = "checked=target-demo2; path=/; max-age=1800; SameSite=Lax";
 
     window.TargetDemoState = {
       targetStatus: "booting",
@@ -72,7 +72,7 @@
       categoryId: window.TargetProjectConfig.targetCategoryId,
       targetSrc: window.TargetProjectConfig.targetScriptUrl || "./at.js",
       propertyToken: window.TargetProjectConfig.atProperty,
-      pageCheck: "target-demo",
+      pageCheck: "target-demo2",
       identityTimeout: 1500,
       requireMetaRouterIdentity: true,
       onStatus: function (status) {
@@ -115,7 +115,7 @@
       <div class="brand">
         <span class="mark">DE</span>
         <div>
-          <p class="brand-title">Working Demo</p>
+          <p class="brand-title">Working Demo 2</p>
           <p class="brand-subtitle">OneTrust-gated Adobe Target</p>
         </div>
       </div>

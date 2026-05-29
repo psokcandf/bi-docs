@@ -43,6 +43,7 @@ mkdir -p "$DIST_DIR/scripts"
 echo "Kopiowanie plików statycznych..."
 cp "$ROOT_DIR/index.html" \
    "$ROOT_DIR/target-demo.html" \
+   "$ROOT_DIR/target-demo2.html" \
    "$ROOT_DIR/analytics-workspace-guide.html" \
    "$ROOT_DIR/styles.css" \
    "$DIST_DIR/"
